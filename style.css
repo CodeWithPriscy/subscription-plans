@@ -1,0 +1,100 @@
+body{
+    background: #07074f;
+    margin:0;
+}
+
+.title{
+    font-family: "Roboto Mono", monospace;
+}
+
+
+.wrapper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height:80vh;
+    gap:1rem;
+    margin:0;
+    padding:0;
+    position:relative;
+    top:70px;
+    flex-wrap: wrap;
+    
+}
+.pricing-plan{
+    font-family: "Nunito", sans-serif;
+    background-color: white;
+    flex:1;
+    max-width:200px;
+    padding:50px;
+    text-align:center;
+    border-radius: 20px; 
+    
+}
+#bas{
+    cursor:pointer;
+}
+#bas:hover{
+    background: linear-gradient(90deg, hsla(211, 96%, 62%, 1) 0%, hsla(295, 94%, 76%, 1) 100%);
+    color:white;
+}
+#stand{
+    cursor:pointer;
+}
+#stand:hover{
+    background: linear-gradient(90deg, hsla(333, 100%, 53%, 1) 0%, hsla(33, 94%, 57%, 1) 100%);
+    color:white;
+}
+#premium{
+    cursor:pointer;
+}
+#premium:hover{
+    background: linear-gradient(90deg, hsla(136, 82%, 72%, 1) 0%, hsla(205, 84%, 36%, 1) 100%);
+    color:white;
+}
+.title{
+    font-size:30px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+.price{
+    font-size:40px;
+    font-weight: bolder;
+    margin-bottom: 40px;
+}
+.features{
+    list-style: none;
+    padding:0;
+    margin:0;
+}
+.features li{
+margin-bottom: 20px;
+}
+.btn{
+    padding:15px;
+    border-radius: 12px;
+    margin-top:5px;
+    cursor:pointer;
+    font-weight: bold;
+    font-size: 15px;
+    background-color: #0f93f7;
+    color:white;
+}
+button:hover{
+color:white;
+background-color: #0f93f7;
+border:none;
+}
+@media (max-width: 300px) {
+    .wrapper {
+        flex-direction: column;
+    }
+
+    .pricing-plan {
+        margin-bottom: 15px;
+    }
+    
+    
+}
+
+
